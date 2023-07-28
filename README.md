@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nj7iw4Wb)
 # Docker 🐋
 
 Docker makes development efficient and predictable
@@ -33,9 +32,9 @@ More detailed can be found [here](https://hub.docker.com/_/node) by seacrhing th
     "version": "1.0.0",
     "description": "Node.js on Docker",
     "author": "First Last <first.last@example.com>",
-    "main": "server.js",
+    "main": "app.js",
     "scripts":{
-      "start": "node server.js"
+      "start": "node app.js"
     },
     "dependencies":{
       "express": "^4.18.2"
@@ -44,7 +43,7 @@ More detailed can be found [here](https://hub.docker.com/_/node) by seacrhing th
 ```
 With your new package.json file, run `npm install`. If you are using npm version 5 or later, this will generate a `package-lock.json` file which will be copied to your Docker image.
 
-Then, create a `server.js` file that defines a web app using the Express.js framework:
+Then, create a `app.js` file that defines a web app using the Express.js framework:
 
 ```bash
 const http = require('http');
@@ -132,7 +131,7 @@ COPY . .
 
 EXPOSE 3001
 
-CMD [ "node", "server.js" ]
+CMD [ "node", "app.js" ]
 ```
 
 ## Building your image
@@ -172,5 +171,3 @@ Then you can open the app on the port you have created in localhost.
 
 # Closing
  Thaks for comming. I hope you learned a thing or more  about Docker. If you found anything the be incomplete, poorly explained, or just trash. feel free to open an issue abaout it.
-
-
