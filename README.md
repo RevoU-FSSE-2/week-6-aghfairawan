@@ -104,7 +104,7 @@ Your app binds to port `3001` so you'll use the EXPOSE instruction to have it ma
 EXPOSE 3001
 ```
 
-Define the command to run your app using CMD which defines your runtime. Here we will use node server.js to start your server:
+Define the command to run your app using CMD which defines your runtime. Here we will use node app.js to start your server:
 
 ```bash
 CMD [ "node", "app.js" ]
