@@ -19,7 +19,7 @@ More detailed download and install instructions can be found [here](https://docs
 
 After done installing the Docker you can see with running `docker --version` on `CMD`, result :
 
-![image](image/doecker%20version.JPG)
+![image](https://github.com/RevoU-FSSE-2/week-6-aghfairawan/blob/main/image/doecker%20version.JPG)
 
 # 🔨 Installing an Images
 More detailed can be found [here](https://hub.docker.com/_/node) by seacrhing the node
@@ -168,7 +168,7 @@ CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS      
 
 Then you can open the app on the port you have created in localhost.
 
-![result](image/result.JPG)
+![result](https://github.com/RevoU-FSSE-2/week-6-aghfairawan/blob/main/image/result.JPG)
 
 # Closing
  Thaks for comming. I hope you learned a thing or more  about Docker. If you found anything the be incomplete, poorly explained, or just trash. feel free to open an issue abaout it.
