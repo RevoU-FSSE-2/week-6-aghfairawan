@@ -107,7 +107,7 @@ EXPOSE 3001
 Define the command to run your app using CMD which defines your runtime. Here we will use node server.js to start your server:
 
 ```bash
-CMD [ "node", "server.js" ]
+CMD [ "node", "app.js" ]
 ```
 Your Dockerfile should now look like this:
 
